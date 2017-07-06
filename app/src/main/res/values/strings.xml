@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Poc_emoji_images</string>
+
+    <string name="welcome_txt_title">My emoji\'s test</string>
+</resources>
