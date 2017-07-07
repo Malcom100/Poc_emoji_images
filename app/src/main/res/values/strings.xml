@@ -2,4 +2,8 @@
     <string name="app_name">Poc_emoji_images</string>
 
     <string name="welcome_txt_title">My emoji\'s test</string>
+    <string name="keyboard_type_1">Type 1</string>
+    <string name="keyboard_type_2">Type 2</string>
+    <string name="keyboard_type_3">Type 3</string>
+    <string name="keyboard_type_4">Type 4</string>
 </resources>

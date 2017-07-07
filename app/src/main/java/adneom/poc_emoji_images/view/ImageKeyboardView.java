@@ -1,6 +1,7 @@
 package adneom.poc_emoji_images.view;
 
 import android.content.Context;
+import android.os.Handler;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
@@ -8,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,13 +24,14 @@ import adneom.poc_emoji_images.view.adapter.ImageKeyboardAdapter;
  * Created by gtshilombowanticale on 04-07-17.
  */
 
-public class ImageKeyboardView extends View{
+public class ImageKeyboardView extends View {
 
     private LinearLayout linearLayout;
     private ImagesKeyboardServices imagesKeyboardServices;
 
     private ImageKeyboardAdapter adapter;
     private RecyclerView recyclerView;
+
 
     public ImageKeyboardView(Context context) {
         super(context);
@@ -80,7 +83,9 @@ public class ImageKeyboardView extends View{
         width = View.MeasureSpec.getSize(widthMeasureSpec);
         height = View.MeasureSpec.getSize(heightMeasureSpec);
 
-        Log.d("Emoji",width+" "+height);
+        //Log.d("Emoji",width+" "+height);
         setMeasuredDimension(width,height);
     }
+
+
 }
